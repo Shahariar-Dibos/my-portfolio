@@ -8,12 +8,15 @@ h1{
     font-size: 70px;
 }
 
+h2{
+    font-size: 40px;
+}
 .or{
    
     color: orange;
 }
 
-section{
+.flex-cont{
     
     display: flex;
     margin-bottom: 100px;
@@ -48,4 +51,38 @@ section{
     background-image:url(dream-bg.png) ;
     background-repeat: no-repeat;
     background-position: right ;
+}
+
+.exp{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left:10px ;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    
+
+}
+#web-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+#full-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(245, 74, 6),rgb(255, 149, 78));
+    border-image-slice: 1;
+
+}
+
+footer p{
+    text-align: center;
 }
